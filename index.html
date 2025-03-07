@@ -32,16 +32,16 @@
                 <h3 class="text-4xl font-light">Dev <span class="text-4xl font-bold">Board</span></h3>
             </div>
             <!-- Task amount and color btn -->
-             <div class="flex">
-            <div class="flex items-center mr-10">
-                <img class="w-7 h-7" src="./assets/checkbox.png" alt="">
-                <h3 class="text-3xl font-bold ml-2">23</h3>
+            <div class="flex">
+                <div class="flex items-center mr-10">
+                    <img class="w-7 h-7" src="./assets/checkbox.png" alt="">
+                    <h3 class="text-3xl font-bold ml-2">23</h3>
 
+                </div>
+                <div>
+                    <img src="./assets/theme-btn.png" alt="" srcset="">
+                </div>
             </div>
-            <div>
-                <img src="./assets/theme-btn.png" alt="" srcset="">
-            </div>
-        </div>
 
         </nav>
 
@@ -50,7 +50,7 @@
         <div class="flex container mx-auto gap-4 mt-4">
             <!--cards section -->
             <section class="bg-white w-4/5 rounded-xl shadow-xl p-4">
-                 <div class="flex gap-3">
+                <div class="flex gap-3">
                     <!-- Task container -->
                     <div class="bg-[rgba(244,247,255,1)] w-[25%] p-4 flex items-center rounded-xl">
                         <div>
@@ -63,35 +63,40 @@
 
                     </div>
                     <!-- Discover container -->
-                     <div class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] w-[50%] rounded-xl">
+                    <div class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] w-[50%] rounded-xl">
                         <div class="flex items-center justify-center p-4">
                             <img src="./assets/board.png" alt="">
                             <p class="text-2xl font-medium text-white ml-4">Discover Something <br> New Today!</p>
                         </div>
 
-                     </div>
-                     <!-- Date container -->
-                      <div class="bg-[rgba(244,247,255,1)] w-[25%] flex items-center justify-center ">
+                    </div>
+                    <!-- Date container -->
+                    <div class="bg-[rgba(244,247,255,1)] w-[25%] flex items-center justify-center ">
                         <div>
                             <img src="./assets/calender.png" alt="">
                         </div>
                         <div>
-                            <p id="current-date"></p>
+                            <p class="ml-3 text-xl font-medium" id="current-date"></p>
 
                         </div>
 
-                      </div>
-                 </div>
+                    </div>
+                </div>
 
             </section>
             <!--History section -->
             <aside class="bg-white w-1/5 rounded-xl shadow-xl p-4">
-                <h2 class="text-xl font-semibold mb-4">Quick Actions</h2>
+                <div class="flex items-center justify-center border-b-1 border-b-red-500">
+                    <img src="./assets/fi-sr-time-past.png" alt="">
+                    <h5 class="text-xl font-medium ml-3">Activity Log</h5>
+                </div>
+
 
             </aside>
         </div>
 
     </main>
+    <script src="./js/date.js"></script>
 
 
 </body>
