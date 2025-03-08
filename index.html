@@ -58,7 +58,7 @@
                         </div>
                         <div>
                             <h6 class="font-medium">Task Assigned</h6>
-                            <h2 id="task-assigned" class="text-3xl font-bold">05</h2>
+                            <h2 id="task-assigned" class="text-3xl font-bold">06</h2>
                         </div>
 
                     </div>
@@ -88,7 +88,7 @@
                     <!-- 1st card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-28 text-center mb-2">ShopEase</h6>
-                        <h1 class="text-2xl font-medium mb-2">Fix Mobile Button issue </h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Fix Mobile Button issue </h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Debug using Chrome DevTools, check for overlapping
@@ -113,7 +113,7 @@
                     <!-- 2nd card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-28 text-center mb-2">CloudSync</h6>
-                        <h1 class="text-2xl font-medium mb-2">Add Dark Mode </h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Add Dark Mode </h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Store the user's preference in localStorage, update CSS variables 
@@ -138,7 +138,7 @@
                     <!--3rd card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-28 text-center mb-2">SwiftPay</h6>
-                        <h1 class="text-2xl font-medium mb-2">Optimize Home page</h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Optimize Home page</h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Debug using Chrome DevTools, check for overlapping
@@ -164,7 +164,7 @@
                     <!-- 4th card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-28 text-center mb-2">Meta</h6>
-                        <h1 class="text-2xl font-medium mb-2">Add new emoji 🤲 </h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Add new emoji 🤲 </h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Debug using Chrome DevTools, check for overlapping
@@ -191,7 +191,7 @@
                     <!-- 5th card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-30 text-center mb-2">GoogleLLC</h6>
-                        <h1 class="text-2xl font-medium mb-2">Integrate OpenAI API</h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Integrate OpenAI API</h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Debug using Chrome DevTools, check for overlapping
@@ -217,7 +217,7 @@
                     <!-- 6th card -->
                     <div class="bg-[rgba(55,82,253,0.2)] p-6 rounded-xl">
                         <h6 class="bg-white font-medium rounded-lg px-4 py-2 w-28 text-center mb-2">Glassdoar</h6>
-                        <h1 class="text-2xl font-medium mb-2">Improve Job searching </h1>
+                        <h1 class="task-title text-2xl font-medium mb-2">Improve Job searching </h1>
                         <div class="">
                             <p class="bg-white p-4 w-[275px] rounded-lg mb-2">
                                 Debug using Chrome DevTools, check for overlapping
@@ -253,7 +253,10 @@
                 </div>
                 <div>
 
-                    <button class="bg-[#3752FD] px-5 py-2 text-white font-medium rounded-xl mt-3">Clear History</button>
+                    <button id="clear-history" class="bg-[#3752FD] px-5 py-2 text-white font-medium rounded-xl mt-3">Clear History</button>
+                </div>
+                <div id="history-container" class="mt-4">
+
                 </div>
 
 
@@ -264,6 +267,7 @@
     <script src="./js/date.js"></script>
     <script src="./js/discover.js"></script>
     <script src="./js/task.js"></script>
+    <script src="./js/clearhistory.js"></script>
 
 
 </body>
