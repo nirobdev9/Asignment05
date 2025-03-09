@@ -13,7 +13,7 @@ console.log(totalTask)
 
 for (let button of buttons) {
   button.addEventListener("click", function (event) {
-    alert("task updated");
+    alert("Board updated successfully");
     event.target.disabled = true;
     button.classList.add("bg-gray-400", "cursor-not-allowed");
     convertedCompletedTask++;
@@ -26,12 +26,12 @@ for (let button of buttons) {
     const currentTime = new Date().toLocaleString();
 
     const p = document.createElement("p");
-    p.innerText = `Task ${taskTitleText} at ${currentTime} completed`;
+    p.innerText = `You have completed the task ${taskTitleText} at ${currentTime}`;
     p.classList.add("bg-[rgba(55,82,253,0.2)]", "p-4", "mt-2", "rounded-xl");
     historySection.appendChild(p);
 
     if (convertedCompletedTask === totalTask){
-      alert("all task completed")
+      alert("congrats ! you have completed all the current task")
     }
 
   });
