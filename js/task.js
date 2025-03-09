@@ -8,7 +8,6 @@ let taskTitle = document.querySelectorAll(".task-title");
 let convertedCompletedTask = parseInt(completedTask.innerText);
 let convertedTaskAssigned = parseInt(taskAssigned.innerText);
 let totalTask = convertedCompletedTask + convertedTaskAssigned;
-console.log(totalTask)
 
 
 for (let button of buttons) {
